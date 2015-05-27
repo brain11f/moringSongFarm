@@ -1,0 +1,22 @@
+body,html{padding:0;margin:0}
+
+.instagram-header{width: 100%;list-style-type:none;padding:0;margin:0;font-size:0
+}
+
+li{width: 10%;float:left}
+li img{width:100%; margin:0; padding:0}
+li a{top:0;left:0; margin:0; padding:0;float:left;}
+
+.instagram-image img{padding:0;margin:0;}
+
+.instagram-image.image-3, .instagram-image.image-8, .instagram-image.image-11{
+  width:20%
+}
+
+@media only screen and (max-width : 768px) {
+ li{width: 20%;float:left}
+ .instagram-image.image-3, .instagram-image.image-8, .instagram-image.image-11{
+  width:40%
+}
+
+}

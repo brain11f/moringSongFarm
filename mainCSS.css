@@ -1,1 +1,59 @@
+/*import*/
 @import 'css/header.css';
+
+/*fonts*/
+@import url(http://fonts.googleapis.com/css?family=League+Script);
+
+@import url(http://fonts.googleapis.com/css?family=Halant:300,400);
+
+body,html {
+    padding:0em;
+    margin:0em;
+    list-style-type: none;
+}
+
+.menu ul {
+    padding: 1em;
+    margin: 1em;
+}
+
+.menu ul li {
+    font-family: 'League Script', cursive;
+    font-size: 1.5em;
+    display:inline;
+    padding: 1em;
+}
+
+body section {
+    text-align: center;
+}
+
+section h3 {
+    font-family: 'League Script', cursive;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+section p {
+    font-family: 'Halant', serif;
+    font-size: 1.2em;
+    line-height: 170%;
+    max-width: 50em;
+    padding-left: 14em;
+    padding-right: 14em;
+}
+
+/*welcome*/
+.home p {
+    
+}
+
+/*Wedding-Events*/
+.Wedding-Events {
+    
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+}

@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 		success: function(data) {
 			images = data;
 			// Get 10 random images
-			var arr = []
+			var arr = [];
 			while(arr.length < 11){
 			  var randomnumber=Math.floor((Math.random()*19));
 			  var found=false;

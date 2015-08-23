@@ -6,26 +6,28 @@
 
 @import url(http://fonts.googleapis.com/css?family=Halant:300,400);
 
-body,html {
+body, html {
     padding:0em;
     margin:0em;
     list-style-type: none;
 }
 
-.menu ul {
-    padding: 1em;
-    margin: 1em;
-}
-
 .menu ul li {
     font-family: 'League Script', cursive;
-    font-size: 1.5em;
+    font-size: 1.6em;
     display:inline;
     padding: 1em;
+    width: 100%;
 }
 
 body section {
     text-align: center;
+}
+
+section h3, p {
+	position: relative;
+	top: 1.5em;
+	padding-bottom: 2em;
 }
 
 section h3 {
@@ -38,19 +40,37 @@ section p {
     font-family: 'Halant', serif;
     font-size: 1.2em;
     line-height: 170%;
-    max-width: 50em;
     padding-left: 14em;
     padding-right: 14em;
 }
 
+main section {
+	padding-bottom: 5em;
+}
+
 /*welcome*/
-.home p {
+.home {
     
 }
 
-/*Wedding-Events*/
+/*Wedding Events*/
 .Wedding-Events {
     
+}
+
+/*Flower-Subscriptions*/
+.Flower-Subscriptions {
+    
+}
+
+/*Our-Story*/
+.Our-Story {
+    
+}
+
+/*Blog*/
+.Blog {
+	
 }
 
 footer li {

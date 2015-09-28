@@ -14,7 +14,7 @@ header h1 {
 }
 
 .instagram-banner li {
-	width: 20%;
+	width: 10%;
 	float:left;
 }
 
@@ -38,7 +38,7 @@ header h1 {
 }
 
 .instagram-image.image-3, .instagram-image.image-8, .instagram-image.image-11 {
-	width: 40%;
+	width: 20%;
 }
 
 @media only screen and (max-width : 768px) {
@@ -48,7 +48,7 @@ header h1 {
  }
     
  .instagram-image.image-3, .instagram-image.image-8, .instagram-image.image-11{
-	width: 40%;
+	width: 10%;
 	visibility: collapse;
 }
 
@@ -58,5 +58,5 @@ header h1 {
 .instagram-image.image-1, .instagram-image.image-2, .instagram-image.image-3, .instagram-image.image-4, .instagram-image.image-5, .instagram-image.image-6, .instagram-image.image-7, .instagram-image.image-8, .instagram-image.image-9, .instagram-image.image-10,
 .instagram-image.image-11 {
 	visibility: hidden;
-} 
+	} 
 }

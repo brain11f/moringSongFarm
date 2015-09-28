@@ -6,22 +6,30 @@
 
 @import url(http://fonts.googleapis.com/css?family=Halant:300,400);
 
-body, html {
-    padding:0em;
-    margin:0em;
-    list-style-type: none;
+body {
+	padding:0em;
+	margin:0em;
+	list-style-type: none;
+	background-color: #c7eefd;
 }
 
-.menu ul li {
-    font-family: 'League Script', cursive;
-    font-size: 1.6em;
-    display:inline;
-    padding: 1em;
-    width: 100%;
+nav {
+	background-color: aliceblue;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	text-align: center;
+}
+
+nav li {
+	font-family: 'League Script', cursive;
+	font-size: 1.2em;
+	display:inline;
+	padding: 1em;
+	width: 100%;
 }
 
 body section {
-    text-align: center;
+	text-align: center;
 }
 
 section h3, p {
@@ -31,49 +39,44 @@ section h3, p {
 }
 
 section h3 {
-    font-family: 'League Script', cursive;
-    font-size: 2em;
-    font-weight: 100;
+	font-family: 'League Script', cursive;
+	font-size: 2em;
+	font-weight: 100;
 }
 
 section p {
-    font-family: 'Halant', serif;
-    font-size: 1.2em;
-    line-height: 170%;
-    padding-left: 14em;
-    padding-right: 14em;
+	font-family: 'Halant', serif;
+	font-size: 1.2em;
+	line-height: 170%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 main section {
 	padding-bottom: 5em;
 }
 
-/*welcome*/
-.home {
-    
-}
-
 /*Wedding Events*/
 .Wedding-Events {
-    
+	background-color: #fdedf8;
 }
 
 /*Flower-Subscriptions*/
 .Flower-Subscriptions {
-    
+	background: #fcf311;
 }
 
 /*Our-Story*/
 .Our-Story {
-    
+	background-color: #79a146;
 }
 
 /*Blog*/
 .Blog {
-	
+	background-color: red;
 }
 
 footer li {
-    list-style-type: none;
-    display: inline;
+	list-style-type: none;
+	display: inline;
 }

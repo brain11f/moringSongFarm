@@ -1,31 +1,16 @@
-/**
- * Module dependencies.
- */
+'use strict';
 
-var express = require('express')
-, routes = require('./routes')
-, http = require('http');
-
+var express = require('express');
 var app = express();
-var server = app.listen(3000);
-var io = require('socket.io').listen(server); // this tells socket.io to use our express server
 
-app.configure(function(){
-	app.set('views', __dirname + '/views');
-	app.set('view engine', 'jade');
-	app.use(express.favicon());
-	app.use(express.logger('dev'));
-	app.use(express.static(__dirname + '/public'));
-	app.use(express.bodyParser());
-	app.use(express.methodOverride());
-	app.use(app.router);
+
+app.set('port', (process.env.PORT || 3000));
+app.use(express.static(__dirname + '/build'));
+
+app.get('/*', function(req, res) {
+	res.status(404).send('could not find page');
 });
 
-app.configure('development', function(){
-	app.use(express.errorHandler());
+app.listen(app.get('port'), function() {
+	console.log("Node app is running at localhost:" + app.get('port'));
 });
-
-app.get('/', routes.index);
-
-
-console.log("Express server listening on port 3000");
